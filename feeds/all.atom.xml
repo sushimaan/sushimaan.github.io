@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Reploid Crisis</title><link href="http://sushimaan.github.io/" rel="alternate"></link><link href="http://sushimaan.github.io/feeds/all.atom.xml" rel="self"></link><id>http://sushimaan.github.io/</id><updated>2014-10-02T12:02:00+02:00</updated><entry><title>Introduction</title><link href="http://sushimaan.github.io/introduction.html" rel="alternate"></link><updated>2014-10-02T12:02:00+02:00</updated><author><name>Sebastiani Aguirre</name></author><id>tag:sushimaan.github.io,2014-10-02:introduction.html</id><summary type="html">&lt;p&gt;The purpose of this blog is to keep track of the stuff I learn about Artificial Intelligence and
+Machine Learning. While most of the stuff I post may only make sense to my head, I will try to
+make them as consistent as possible in the case that someone else reads this. I am still an
+undergraduate student, therefore I may post erroneous information. If you find such errors, I would
+appreciate that you let me know, as I want to understand this the best I can. Sometimes I may post
+code to some other problems that may be unrelated to AI/ML, that just means that I was in the mood
+for something else. Learning and applying what I learn is my passion, as someone I believe to be my
+friend made me realize. I vehemently search for the truth behind things, and will go as far as my
+curiosity may take me.&lt;/p&gt;</summary><category term="introduction"></category><category term="about"></category></entry></feed>
