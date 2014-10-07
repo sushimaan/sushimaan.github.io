@@ -1483,7 +1483,21 @@ table.dataframe th, td {
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h1 id="this-is-a-test"&gt;This is a test&lt;/h1&gt;
-&lt;p&gt;$$c = \sqrt{a^2 + b^2}$$&lt;/p&gt;
+&lt;p&gt;$$c = \sqrt{a^2 + b^2}$$
+:math:&lt;code&gt;A_\text{c} = (\pi/4) d^2&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;
+In []:
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Sebastiani Aguirre</dc:creator><pubDate>Thu, 02 Oct 2014 01:30:00 +0200</pubDate><guid>tag:sushimaan.github.io,2014-10-02:test.html</guid><category>test</category></item></channel></rss>
