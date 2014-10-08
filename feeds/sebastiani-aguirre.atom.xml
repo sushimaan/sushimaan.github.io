@@ -1482,7 +1482,17 @@ table.dataframe th, td {
 &lt;h3 id="-5-extending-the-linear-model-sect-five-"&gt;&lt;a href="#sect five"&gt;5. Extending the Linear Model&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id="-6-implementing-linear-regression-with-scikit-learn-sect-six-"&gt;&lt;a href="#sect six"&gt;6. Implementing Linear Regression with Scikit-Learn&lt;/a&gt;&lt;/h3&gt;
 &lt;h2 id="-a-id-description-a-description"&gt;&lt;a id="Description"&gt;&lt;/a&gt;Description&lt;/h2&gt;
-&lt;p&gt;Linear regression belongs to the group of supervised learning approachs.&lt;br /&gt;This model is used to predict a quantitative, continuous response. It is&lt;br /&gt;the simplest regressive method.&lt;/p&gt;
+&lt;p&gt;Linear regression belongs to the group of supervised learning approachs.&lt;br /&gt;This model is used to predict a quantitative, continuous response. It is&lt;br /&gt;the simplest regressive method.
+Given a number of input vectors X1, X2, X3, X4,...,Xn with n-features   for each vector and a associated response Y1,Y2,...,Y3 for each vector&lt;br /&gt;we can construct a model such that Y1 = B0 + B1X11 + B2X12 + ... + BNX1N.
+The problem therefore lies in estimating the B's such that the difference between the right-side and left-side of the equation is very small. This&lt;br /&gt;difference is measured using Least Squares Sum:&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="-a-id-estimating-a-estimating-coefficients-with-stochastic-gradient-descent"&gt;&lt;a id="Estimating"&gt;&lt;/a&gt;Estimating Coefficients with Stochastic Gradient Descent&lt;/h2&gt;
 &lt;h2 id="-a-id-assesing-a-assesing-the-accuracy-of-coefficients-and-model"&gt;&lt;a id="Assesing"&gt;&lt;/a&gt;Assesing the Accuracy of Coefficients and Model&lt;/h2&gt;
 &lt;h2 id="-a-id-subset-a-subset-selection"&gt;&lt;a id="Subset"&gt;&lt;/a&gt;Subset Selection&lt;/h2&gt;
