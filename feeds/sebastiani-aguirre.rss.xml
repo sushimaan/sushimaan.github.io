@@ -1487,7 +1487,6 @@ table.dataframe th, td {
 &lt;h2 id="-a-id-subset-a-subset-selection"&gt;&lt;a id="Subset"&gt;&lt;/a&gt;Subset Selection&lt;/h2&gt;
 &lt;h2 id="-a-id-extension-a-extending-the-linear-model"&gt;&lt;a id="Extension"&gt;&lt;/a&gt;Extending the Linear Model&lt;/h2&gt;
 &lt;h2 id="-a-id-implementation-a-implementing-linear-regression-with-scikit-learn"&gt;&lt;a id="Implementation"&gt;&lt;/a&gt; Implementing Linear Regression with Scikit-Learn&lt;/h2&gt;
-&lt;p&gt;$$ c = 5 $$&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Sebastiani Aguirre</dc:creator><pubDate>Fri, 03 Oct 2014 10:42:00 +0200</pubDate><guid>tag:sushimaan.github.io,2014-10-03:linear-regression.html</guid><category>linear</category><category>regression</category><category>simple</category><category>multiple</category><category>python</category></item><item><title>Introduction</title><link>https://sushimaan.github.io/introduction.html</link><description>&lt;p&gt;The purpose of this blog is to keep track of the stuff I learn about Artificial Intelligence and
