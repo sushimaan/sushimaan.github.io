@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reploid Crisis</title><link>https://sushimaan.github.io/</link><description></description><atom:link href="https://sushimaan.github.io/feeds/sebastiani-aguirre.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 02 Oct 2014 12:02:00 +0200</lastBuildDate><item><title>Introduction</title><link>https://sushimaan.github.io/introduction.html</link><description>&lt;p&gt;The purpose of this blog is to keep track of the stuff I learn about Artificial Intelligence and
-Machine Learning. While most of the stuff I post may only make sense to my head, I will try to
-make them as consistent as possible in the case that someone else reads this. I am still an
-undergraduate student, therefore I may post erroneous information. If you find such errors, I would
-appreciate that you let me know, as I want to understand this the best I can. Sometimes I may post
-code to some other problems that may be unrelated to AI/ML, that just means that I was in the mood
-for something else. Learning and applying what I learn is my passion, as someone I believe to be my
-friend made me realize. I vehemently search for the truth behind things, and will go as far as my
-curiosity may take me.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Sebastiani Aguirre</dc:creator><pubDate>Thu, 02 Oct 2014 12:02:00 +0200</pubDate><guid>tag:sushimaan.github.io,2014-10-02:introduction.html</guid><category>introduction</category><category>about</category></item><item><title>Test</title><link>https://sushimaan.github.io/test.html</link><description>&lt;style type="text/css"&gt;.clearfix{*zoom:1}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reploid Crisis</title><link>https://sushimaan.github.io/</link><description></description><atom:link href="https://sushimaan.github.io/feeds/sebastiani-aguirre.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 03 Oct 2014 10:42:00 +0200</lastBuildDate><item><title>Linear Regression</title><link>https://sushimaan.github.io/linear-regression.html</link><description>&lt;style type="text/css"&gt;.clearfix{*zoom:1}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0}
 .clearfix:after{clear:both}
 .hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}
 .input-block-level{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
@@ -1482,8 +1474,40 @@ table.dataframe th, td {
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="this-is-a-test"&gt;This is a test&lt;/h1&gt;
-&lt;p&gt;$$c = \sqrt{a^2 + b^2}$$&lt;/p&gt;
+&lt;h1 id="notes-on-linear-regression"&gt;Notes on Linear Regression&lt;/h1&gt;
+&lt;h3 id="-1-description-description-"&gt;&lt;a href="#Description"&gt;1. Description&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="-2-estimating-coefficients-with-stochastic-gradient-descent-estimating-"&gt;&lt;a href="#Estimating"&gt;2. Estimating Coefficients with Stochastic Gradient Descent&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="-3-assesing-the-accuracy-of-coefficients-and-model-sect-three-"&gt;&lt;a href="#sect three"&gt;3. Assesing the Accuracy of Coefficients and Model&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="-4-subset-selection-sect-four-"&gt;&lt;a href="#sect four"&gt;4. Subset Selection&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="-5-extending-the-linear-model-sect-five-"&gt;&lt;a href="#sect five"&gt;5. Extending the Linear Model&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="-6-implementing-linear-regression-with-scikit-learn-sect-six-"&gt;&lt;a href="#sect six"&gt;6. Implementing Linear Regression with Scikit-Learn&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id="-a-id-description-a-description"&gt;&lt;a id="Description"&gt;&lt;/a&gt;Description&lt;/h2&gt;
+&lt;h2 id="-a-id-estimating-a-estimating-coefficients-with-stochastic-gradient-descent"&gt;&lt;a id="Estimating"&gt;&lt;/a&gt;Estimating Coefficients with Stochastic Gradient Descent&lt;/h2&gt;
+&lt;h2 id="-a-id-assesing-a-assesing-the-accuracy-of-coefficients-and-model"&gt;&lt;a id="Assesing"&gt;&lt;/a&gt;Assesing the Accuracy of Coefficients and Model&lt;/h2&gt;
+&lt;h2 id="-a-id-subset-a-subset-selection"&gt;&lt;a id="Subset"&gt;&lt;/a&gt;Subset Selection&lt;/h2&gt;
+&lt;h2 id="-a-id-extension-a-extending-the-linear-model"&gt;&lt;a id="Extension"&gt;&lt;/a&gt;Extending the Linear Model&lt;/h2&gt;
+&lt;h2 id="-a-id-implementation-a-implementing-linear-regression-with-scikit-learn"&gt;&lt;a id="Implementation"&gt;&lt;/a&gt; Implementing Linear Regression with Scikit-Learn&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Sebastiani Aguirre</dc:creator><pubDate>Thu, 02 Oct 2014 01:30:00 +0200</pubDate><guid>tag:sushimaan.github.io,2014-10-02:test.html</guid><category>test</category></item></channel></rss>
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;
+In []:
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Sebastiani Aguirre</dc:creator><pubDate>Fri, 03 Oct 2014 10:42:00 +0200</pubDate><guid>tag:sushimaan.github.io,2014-10-03:linear-regression.html</guid><category>linear</category><category>regression</category><category>simple</category><category>multiple</category><category>python</category></item><item><title>Introduction</title><link>https://sushimaan.github.io/introduction.html</link><description>&lt;p&gt;The purpose of this blog is to keep track of the stuff I learn about Artificial Intelligence and
+Machine Learning. While most of the stuff I post may only make sense to my head, I will try to
+make them as consistent as possible in the case that someone else reads this. I am still an
+undergraduate student, therefore I may post erroneous information. If you find such errors, I would
+appreciate that you let me know, as I want to understand this the best I can. Sometimes I may post
+code to some other problems that may be unrelated to AI/ML, that just means that I was in the mood
+for something else. Learning and applying what I learn is my passion, as someone I believe to be my
+friend made me realize. I vehemently search for the truth behind things, and will go as far as my
+curiosity may take me.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Sebastiani Aguirre</dc:creator><pubDate>Thu, 02 Oct 2014 12:02:00 +0200</pubDate><guid>tag:sushimaan.github.io,2014-10-02:introduction.html</guid><category>introduction</category><category>about</category></item></channel></rss>
