@@ -1487,19 +1487,7 @@ table.dataframe th, td {
 &lt;h2 id="-a-id-subset-a-subset-selection"&gt;&lt;a id="Subset"&gt;&lt;/a&gt;Subset Selection&lt;/h2&gt;
 &lt;h2 id="-a-id-extension-a-extending-the-linear-model"&gt;&lt;a id="Extension"&gt;&lt;/a&gt;Extending the Linear Model&lt;/h2&gt;
 &lt;h2 id="-a-id-implementation-a-implementing-linear-regression-with-scikit-learn"&gt;&lt;a id="Implementation"&gt;&lt;/a&gt; Implementing Linear Regression with Scikit-Learn&lt;/h2&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;
-In []:
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="input_area"&gt;
-&lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;$$ c = 5 $$&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</summary><category term="linear"></category><category term="regression"></category><category term="simple"></category><category term="multiple"></category><category term="python"></category></entry><entry><title>Introduction</title><link href="https://sushimaan.github.io/introduction.html" rel="alternate"></link><updated>2014-10-02T12:02:00+02:00</updated><author><name>Sebastiani Aguirre</name></author><id>tag:sushimaan.github.io,2014-10-02:introduction.html</id><summary type="html">&lt;p&gt;The purpose of this blog is to keep track of the stuff I learn about Artificial Intelligence and
